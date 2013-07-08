@@ -6,7 +6,7 @@ var buf = new Buffer(fs.readFileSync('index.html'));
 
 
 app.get('/', function(request, response) {
-  res.setHeader('content-type', 'text/html');
+  response.setHeader('content-type', 'text/html');
   console.log(buf);
   response.send(buf); 
 });
