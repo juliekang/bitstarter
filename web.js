@@ -1,3 +1,5 @@
+// Simple test app.
+
 var express = require('express');
 var fs      = require('fs');
 
